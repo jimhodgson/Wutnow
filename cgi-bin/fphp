@@ -1,0 +1,9 @@
+#!/bin/sh
+umask 027
+PHPRC=/var/www/www.wutnow.com/htdocs/cgi-bin/
+export PHPRC
+PHP_FCGI_CHILDREN=1
+export PHP_FCGI_CHILDREN
+PHP_FCGI_MAX_REQUESTS=5000
+export PHP_FCGI_MAX_REQUESTS
+exec /usr/bin/php-cgi

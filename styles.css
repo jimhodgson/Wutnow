@@ -1,0 +1,60 @@
+body { 
+   font-family: "Palatino Linotype","Book Antiqua", Palatino, serif;
+	font-size: 14pt;
+	color: #333;
+}
+
+#welcome h1 { 
+	font-style: normal;
+	}
+#welcome { 
+	font-style: italic;
+	width: 1024px;
+	margin: 0 auto;
+	margin-top: 100px;
+	}
+
+#shot { 
+	margin-top: 10px;
+	border: 1px solid #000000;
+	cursor: url('/obscurer.png');
+	}
+
+#frontpage { 
+   font-size: 14pt;
+   line-height: 19pt;
+   letter-spacing: .5px;
+   width: 800px;
+   margin: 0 auto;
+   margin-top: 80px;
+  } 
+.alignright { 
+   float: right;
+   margin: 25px;
+   }
+.clear { 
+   clear: both;
+   }
+
+#content { 
+   width: 750px;
+   margin: 0 auto;
+   margin-top: 25px;
+   }
+#content a { color: #336699; text-decoration: none; }
+#content a:hover { text-decoration: underline; }
+
+.big { font-size: 20pt; }
+
+#content ul { margin:0; padding: 0px; padding-left: 10px;}
+#content li { list-style-type: none; padding-left: 0px; margin-bottom: 5px;} 
+#content li:before { content: '\00bb  '; }
+
+#progbar { 
+   width: 512px;
+   margin: 0 auto;
+   height:100px;
+   }
+#steps { 
+   margin: 0 auto;
+   }
